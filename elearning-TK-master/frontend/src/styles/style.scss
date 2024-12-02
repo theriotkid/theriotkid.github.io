@@ -1,0 +1,177 @@
+.sideLink:hover {
+    background-color: #0D6EFD;
+}
+
+.sosLink:hover {
+    color: #0D6EFD;
+    transition: all .3s;
+}
+
+.Thover:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.quotes {
+    background-image: url(/src/Assets/bgLog.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+}
+
+@media (max-width: 576px) {
+    .wrapperPembelajaran {
+        margin-top: 18% !important;
+    }
+
+    .wrapperLogin {
+        flex-direction: column;
+    }
+
+    .quotes {
+        width: 100% !important;
+        height: 24vh;
+
+        blockquote {
+            width: 80% !important;
+            margin-bottom: 0 !important;
+
+            p {
+                font-size: 15px !important;
+            }
+        }
+    }
+
+    .loginForm {
+        width: 100% !important;
+        height: 100vh !important;
+
+        form {
+            width: 80% !important;
+        }
+    }
+
+    .vidHome1 {
+        height: 170 !important;
+    }
+
+    .bannerHome {
+        margin-top: 10% !important;
+        height: 40vh !important;
+        display: block !important;
+    }
+
+    .bannerDasboard {
+        height: 40vh !important;
+        display: block !important;
+        z-index: 1 !important;
+    }
+
+    .sideWrap {
+        width: 90px !important;
+    }
+
+    .sideLink {
+        justify-content: center;
+    }
+
+    .t {
+        display: none;
+    }
+
+    .titleSide {
+        justify-content: center;
+    }
+
+    .nav-link {
+        i {
+            font-size: 30px !important;
+        }
+    }
+
+    .contentAdmin {
+        padding-left: 85px !important;
+    }
+
+    .formUpdate {
+        flex-direction: column;
+
+        .updateCol {
+            width: 100% !important;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
+
+    .titleUpdate {
+        h5 {
+            font-size: 15px;
+        }
+    }
+
+    .logoMenu {
+        margin-right: 0 !important;
+    }
+
+    .bodyDasboard {
+        flex-direction: column;
+
+        .cardInfo {
+            width: 100% !important;
+        }
+
+        .infoWrapper {
+            width: 90% !important;
+        }
+    }
+
+    .bannerWrap {
+        padding-top: 1%;
+    }
+
+    .beritaWrap {
+        flex-direction: column;
+    }
+
+    .calendar {
+        margin-top: 5%;
+    }
+
+    .card-berita {
+        .card-body {
+            .img-thumbnail {
+                height: 50px !important;
+            }
+        }
+    }
+
+}
+
+#closeFormGambar:hover, #closeFormVideo:hover, #closeFormBerita:hover {
+    cursor: pointer;
+    color: rgb(203, 19, 19);
+    transition: all .3s;
+}
+
+.linkTable {
+    max-width: 300px;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.formUpdateBerita{
+    height: 60vh;
+}
+
+.gambar:hover{
+    .gambarDetails{
+        opacity: 1 !important;
+    }
+}
+
+.closePopDetails:hover{
+    cursor: pointer;
+    transition: all .3s;
+    color: red;
+}
